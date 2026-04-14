@@ -27,7 +27,6 @@ PICKLE_FOLDER_EN = '/pickles/en'
 
 # On pickle_storage02 volume, mounted to /pickles-02
 PICKLE_FOLDER_AR = '/pickles-02/ar'
-PICKLE_FOLDER_DSB = '/pickles-03/dsb'
 PICKLE_FOLDER_ES = '/pickles-02/es' # Moved from /pickles/es @ 2026-02-09, T407660
 PICKLE_FOLDER_EU = '/pickles-02/eu' # Moved from /pickles/eu @ 2026-02-09, T407660
 PICKLE_FOLDER_FR = '/pickles-02/fr'
@@ -39,10 +38,11 @@ PICKLE_FOLDER_NL = '/pickles-02/nl'
 PICKLE_FOLDER_PL = '/pickles-02/pl'
 PICKLE_FOLDER_PT = '/pickles-02/pt'
 PICKLE_FOLDER_TR = '/pickles-02/tr' # Moved from /pickles/tr @ 2026-02-09, T407660
-PICKLE_FOLDER_UK = '/pickles-03/uk'
 
 # On pickle_storage03 volume, mounted to /pickles-03
 PICKLE_FOLDER_DE = '/pickles-03/de' # Moved from /pickles/de @ 2026-02-10, T407660
+PICKLE_FOLDER_DSB = '/pickles-03/dsb'
+PICKLE_FOLDER_UK = '/pickles-03/uk'
 
 REST_FRAMEWORK['DEFAULT_THROTTLE_RATES']['anon'] = '100/sec'
 REST_FRAMEWORK['DEFAULT_THROTTLE_RATES']['burst'] = '100/sec'
