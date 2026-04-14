@@ -34,7 +34,8 @@ lxml==4.6.3
 Markdown==3.1
 mwpersistence==0.2.4
 mwreverts==0.1.5
-mwxml==0.3.3
+mwxml==0.3.8
+jsonschema<4.18
 openpyxl==2.6.2
 psycopg2==2.9.2
 
