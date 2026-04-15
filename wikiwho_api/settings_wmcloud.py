@@ -20,7 +20,7 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 ONLY_READ_ALLOWED = False
 
 ACTIONS_LANGUAGES = ['ar', 'de', 'dsb', 'en', 'es', 'eu', 'fr', 'hu', 'id', 'it', 'ja', 'nl', 'pl', 'pt', 'tr', 'uk']
-EVENT_STREAM_WIKIS = ['arwiki', 'dewiki', 'enwiki', 'eswiki', 'euwiki', 'frwiki', 'huwiki', 'idwiki', 'itwiki', 'jawiki', 'nlwiki', 'plwiki', 'ptwiki', 'trwiki']
+EVENT_STREAM_WIKIS = ['arwiki', 'dewiki', 'enwiki', 'eswiki', 'euwiki', 'frwiki', 'huwiki', 'idwiki', 'itwiki', 'jawiki', 'nlwiki', 'plwiki', 'ptwiki', 'trwiki', 'ukwiki', 'dsbwiki']
 
 # On pickle_storage volume, mounted to /pickles
 PICKLE_FOLDER_EN = '/pickles/en'
