@@ -108,6 +108,7 @@ LANGUAGES = (
     ('es', 'Spanish'),
     ('eu', 'Basque'),
     ('fr', 'French'),
+    ('hi', 'Hindi'),
     ('hu', 'Hungarian'),
     ('id', 'Indonesian'),
     ('it', 'Italian'),
@@ -204,7 +205,7 @@ SWAGGER_SETTINGS = {
 #     'DEFAULT_CACHE_ERRORS': False
 # }
 
-ACTIONS_LANGUAGES = ['ar', 'de', 'en', 'es', 'eu', 'fr', 'hu', 'id', 'it', 'ja', 'nl', 'pl', 'pt', 'ru', 'sv', 'tr']
+ACTIONS_LANGUAGES = ['ar', 'de', 'en', 'es', 'eu', 'fr', 'hi', 'hu', 'id', 'it', 'ja', 'nl', 'pl', 'pt', 'ru', 'sv', 'tr']
 CRONJOBS = [
     ('0 1 3 * *', 'api_editor.cron.update_actions_tables', f'>> /dev/null 2>> /var/log/django/crontab.log')
 ]
