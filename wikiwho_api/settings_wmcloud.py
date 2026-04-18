@@ -56,6 +56,7 @@ EVENT_STREAM_WIKIS = [
     'nlwiki',
     'plwiki',
     'ptwiki',
+    'ruwiki',
     'svwiki',
     'trwiki',
     'ukwiki',
