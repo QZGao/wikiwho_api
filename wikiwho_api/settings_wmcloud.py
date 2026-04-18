@@ -26,6 +26,7 @@ ACTIONS_LANGUAGES = [
     'en',
     'es',
     'eu',
+    'fa',
     'fr',
     'hi',
     'hu',
@@ -82,6 +83,7 @@ PICKLE_FOLDER_TR = '/pickles-02/tr' # Moved from /pickles/tr @ 2026-02-09, T4076
 # On pickle_storage03 volume, mounted to /pickles-03
 PICKLE_FOLDER_DE = '/pickles-03/de' # Moved from /pickles/de @ 2026-02-10, T407660
 PICKLE_FOLDER_DSB = '/pickles-03/dsb'
+PICKLE_FOLDER_FA = '/pickles-03/fa'
 PICKLE_FOLDER_HI = '/pickles-03/hi'
 PICKLE_FOLDER_RU = '/pickles-03/ru'
 PICKLE_FOLDER_SV = '/pickles-03/sv'
