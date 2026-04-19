@@ -40,6 +40,7 @@ ACTIONS_LANGUAGES = [
     'sv',
     'tr',
     'uk',
+    'zh',
 ]
 EVENT_STREAM_WIKIS = [
     'arwiki',
@@ -89,6 +90,7 @@ PICKLE_FOLDER_HI = '/pickles-03/hi'
 PICKLE_FOLDER_RU = '/pickles-03/ru'
 PICKLE_FOLDER_SV = '/pickles-03/sv'
 PICKLE_FOLDER_UK = '/pickles-03/uk'
+PICKLE_FOLDER_ZH = '/pickles-03/zh'
 
 REST_FRAMEWORK['DEFAULT_THROTTLE_RATES']['anon'] = '100/sec'
 REST_FRAMEWORK['DEFAULT_THROTTLE_RATES']['burst'] = '100/sec'
