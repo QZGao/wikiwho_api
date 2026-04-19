@@ -283,8 +283,6 @@ class WPHandler(object):
                   'rvendid': self.revision_ids[-1], 'rvslots': 'main'}
         while True:
             # continue downloading as long as we reach to the given rev_id
-            # limit
-            print(params)
             if rvcontinue != '0' and rvcontinue != '1':
                 params['rvcontinue'] = rvcontinue
             try:
