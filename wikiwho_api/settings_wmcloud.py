@@ -48,6 +48,7 @@ EVENT_STREAM_WIKIS = [
     'enwiki',
     'eswiki',
     'euwiki',
+    'fawiki',
     'frwiki',
     'hiwiki',
     'huwiki',
