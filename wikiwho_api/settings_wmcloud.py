@@ -40,6 +40,7 @@ ACTIONS_LANGUAGES = [
     'sv',
     'tr',
     'uk',
+    'vi',
     'zh',
 ]
 EVENT_STREAM_WIKIS = [
@@ -91,6 +92,7 @@ PICKLE_FOLDER_HI = '/pickles-03/hi'
 PICKLE_FOLDER_RU = '/pickles-03/ru'
 PICKLE_FOLDER_SV = '/pickles-03/sv'
 PICKLE_FOLDER_UK = '/pickles-03/uk'
+PICKLE_FOLDER_VI = '/pickles-03/vi'
 PICKLE_FOLDER_ZH = '/pickles-03/zh'
 
 REST_FRAMEWORK['DEFAULT_THROTTLE_RATES']['anon'] = '100/sec'

@@ -123,6 +123,7 @@ LANGUAGES = (
     ('sv', 'Swedish'),
     ('tr', 'Turkish'),
     ('uk', 'Ukrainian'),
+    ('vi', 'Vietnamese'),
     ('zh', 'Chinese'),
 )
 # Languages not natively supported in Django
