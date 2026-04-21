@@ -64,6 +64,7 @@ EVENT_STREAM_WIKIS = [
     'svwiki',
     'trwiki',
     'ukwiki',
+    'viwiki',
     'zhwiki',
 ]
 
