@@ -21,6 +21,7 @@ ONLY_READ_ALLOWED = False
 
 ACTIONS_LANGUAGES = [
     'ar',
+    'ce',
     'de',
     'dsb',
     'en',
@@ -86,6 +87,7 @@ PICKLE_FOLDER_PT = '/pickles-02/pt'
 PICKLE_FOLDER_TR = '/pickles-02/tr' # Moved from /pickles/tr @ 2026-02-09, T407660
 
 # On pickle_storage03 volume, mounted to /pickles-03
+PICKLE_FOLDER_CE = '/pickles-03/ce'
 PICKLE_FOLDER_DE = '/pickles-03/de' # Moved from /pickles/de @ 2026-02-10, T407660
 PICKLE_FOLDER_DSB = '/pickles-03/dsb'
 PICKLE_FOLDER_FA = '/pickles-03/fa'

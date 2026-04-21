@@ -104,6 +104,7 @@ LANGUAGE_CODE = 'en'
 # from django.utils.translation import ugettext_lazy as _
 LANGUAGES = (
     ('ar', 'Arabic'),
+    ('ce', 'Chechen'),
     ('de', 'German'),
     ('dsb', 'Lower Sorbian'),
     ('en', 'English'),
@@ -128,6 +129,12 @@ LANGUAGES = (
 )
 # Languages not natively supported in Django
 EXTRA_LANG_INFO = {
+    'ce': {
+        'bidi': False,
+        'code': 'ce',
+        'name': 'Chechen',
+        'name_local': 'нохчийн',
+    },
     'zh': {
         'bidi': False,
         'code': 'zh',
