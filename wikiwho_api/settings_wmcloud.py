@@ -22,12 +22,14 @@ ONLY_READ_ALLOWED = False
 ACTIONS_LANGUAGES = [
     'ar',
     'ce',
+    'cs',
     'de',
     'dsb',
     'en',
     'es',
     'eu',
     'fa',
+    'fi',
     'fr',
     'hi',
     'hu',
@@ -35,9 +37,11 @@ ACTIONS_LANGUAGES = [
     'it',
     'ja',
     'nl',
+    'no',
     'pl',
     'pt',
     'ru',
+    'sr',
     'sv',
     'tr',
     'uk',
@@ -89,11 +93,15 @@ PICKLE_FOLDER_TR = '/pickles-02/tr' # Moved from /pickles/tr @ 2026-02-09, T4076
 
 # On pickle_storage03 volume, mounted to /pickles-03
 PICKLE_FOLDER_CE = '/pickles-03/ce'
+PICKLE_FOLDER_CS = '/pickles-03/cs'
 PICKLE_FOLDER_DE = '/pickles-03/de' # Moved from /pickles/de @ 2026-02-10, T407660
 PICKLE_FOLDER_DSB = '/pickles-03/dsb'
 PICKLE_FOLDER_FA = '/pickles-03/fa'
+PICKLE_FOLDER_FI = '/pickles-03/fi'
 PICKLE_FOLDER_HI = '/pickles-03/hi'
+PICKLE_FOLDER_NO = '/pickles-03/no'
 PICKLE_FOLDER_RU = '/pickles-03/ru'
+PICKLE_FOLDER_SR = '/pickles-03/sr'
 PICKLE_FOLDER_SV = '/pickles-03/sv'
 PICKLE_FOLDER_UK = '/pickles-03/uk'
 PICKLE_FOLDER_VI = '/pickles-03/vi'

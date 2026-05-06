@@ -105,12 +105,14 @@ LANGUAGE_CODE = 'en'
 LANGUAGES = (
     ('ar', 'Arabic'),
     ('ce', 'Chechen'),
+    ('cs', 'Czech'),
     ('de', 'German'),
     ('dsb', 'Lower Sorbian'),
     ('en', 'English'),
     ('es', 'Spanish'),
     ('eu', 'Basque'),
     ('fa', 'Persian'),
+    ('fi', 'Finnish'),
     ('fr', 'French'),
     ('hi', 'Hindi'),
     ('hu', 'Hungarian'),
@@ -118,9 +120,11 @@ LANGUAGES = (
     ('it', 'Italian'),
     ('ja', 'Japanese'),
     ('nl', 'Dutch'),
+    ('no', 'Norwegian'),
     ('pl', 'Polish'),
     ('pt', 'Portuguese'),
     ('ru', 'Russian'),
+    ('sr', 'Serbian'),
     ('sv', 'Swedish'),
     ('tr', 'Turkish'),
     ('uk', 'Ukrainian'),
@@ -229,7 +233,35 @@ SWAGGER_SETTINGS = {
 #     'DEFAULT_CACHE_ERRORS': False
 # }
 
-ACTIONS_LANGUAGES = ['ar', 'de', 'en', 'es', 'eu', 'fa', 'fr', 'hi', 'hu', 'id', 'it', 'ja', 'nl', 'pl', 'pt', 'ru', 'sv', 'tr', 'zh']
+ACTIONS_LANGUAGES = [
+    'ar',
+    'ce',
+    'cs',
+    'de',
+    'dsb',
+    'en',
+    'es',
+    'eu',
+    'fa',
+    'fi',
+    'fr',
+    'hi',
+    'hu',
+    'id',
+    'it',
+    'ja',
+    'nl',
+    'no',
+    'pl',
+    'pt',
+    'ru',
+    'sr',
+    'sv',
+    'tr',
+    'uk',
+    'vi',
+    'zh',
+]
 CRONJOBS = [
     ('0 1 3 * *', 'api_editor.cron.update_actions_tables', f'>> /dev/null 2>> /var/log/django/crontab.log')
 ]
