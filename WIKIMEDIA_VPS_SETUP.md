@@ -79,9 +79,12 @@
 
 ## Prerequisites
 
-Make sure the language is supported by Django. If it's not:
+Make sure the language is supported by Django by checking for the language code in
+[this list](https://github.com/django/django/blob/1.11.29/django/conf/locale/__init__.py).
 
-1. Add the language to `EXTRA_LANG_INFO` in `wikiwho_api/settings.py` with the appropriate `bidi` and `code` values.
+If the language is not supported:
+
+1. Add the language to `EXTRA_LANG_INFO` in `wikiwho_api/settings_base.py` with the appropriate `bidi` and `code` values.
 2. Generate the `.po` file for the language with `python manage.py makemessages -l [langcode]`
 3. Open the generated `locale/[langcode]/LC_MESSAGES/django.po` file and set the `Plural-Forms` to something like
   `nplurals=2; plural=(n != 1);` (or the appropriate plural form for the language). It may not actually be important
