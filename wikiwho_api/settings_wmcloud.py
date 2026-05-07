@@ -62,7 +62,6 @@ EVENT_STREAM_WIKIS = [
     'huwiki',
     'idwiki',
     'itwiki',
-    'jawiki',
     'nlwiki',
     'plwiki',
     'ptwiki',
@@ -71,7 +70,6 @@ EVENT_STREAM_WIKIS = [
     'trwiki',
     'ukwiki',
     'viwiki',
-    'zhwiki',
 ]
 
 # On pickle_storage volume, mounted to /pickles
