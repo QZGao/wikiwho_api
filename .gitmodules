@@ -1,0 +1,3 @@
+[submodule "lib/WikiWho"]
+	path = lib/WikiWho
+	url = https://github.com/wikimedia/WikiWho.git
