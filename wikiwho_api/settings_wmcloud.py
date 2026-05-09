@@ -40,7 +40,9 @@ ACTIONS_LANGUAGES = [
     'no',
     'pl',
     'pt',
+    'ro',
     'ru',
+    'sh',
     'sr',
     'sv',
     'tr',
@@ -102,7 +104,9 @@ PICKLE_FOLDER_FA = '/pickles-03/fa'
 PICKLE_FOLDER_FI = '/pickles-03/fi'
 PICKLE_FOLDER_HI = '/pickles-03/hi'
 PICKLE_FOLDER_NO = '/pickles-03/no'
+PICKLE_FOLDER_RO = '/pickles-03/ro'
 PICKLE_FOLDER_RU = '/pickles-03/ru'
+PICKLE_FOLDER_SH = '/pickles-03/sh'
 PICKLE_FOLDER_SR = '/pickles-03/sr'
 PICKLE_FOLDER_SV = '/pickles-03/sv'
 PICKLE_FOLDER_UK = '/pickles-03/uk'
